@@ -588,19 +588,19 @@ void testGFMath()
     printf("passed\n");
 }
 
-int main(int argc, const char* argv[])
-{
-    try
-    {
-        testPrimes();
-        testGFConstruct();
-        testGFMath();
-    }
-    catch (const exception& e)
-    {
-        cout << endl << e.what();
-        return 1;
-    }
-
-    return 0;
-}
+//int main(int argc, const char* argv[])
+//{
+//    try
+//    {
+//        testPrimes();
+//        testGFConstruct();
+//        testGFMath();
+//    }
+//    catch (const exception& e)
+//    {
+//        cout << endl << e.what();
+//        return 1;
+//    }
+//
+//    return 0;
+//}
